@@ -1,0 +1,34 @@
+#######################################
+# Syntax Coloring Map For MCP7940RTC
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+set	KEYWORD2
+setAlarm0	KEYWORD2
+clearAlarm0	KEYWORD2
+get	KEYWORD2
+getDateStr	KEYWORD2
+getDay		KEYWORD2
+getDayOfWeek	KEYWORD2
+getHour		KEYWORD2
+getMinute	KEYWORD2
+getMonth	KEYWORD2
+getSecond	KEYWORD2
+getTimeRTC	KEYWORD2
+getYear	KEYWORD2
+read	KEYWORD2
+setTimeRTC	KEYWORD2
+write	KEYWORD2
+#######################################
+# Instances (KEYWORD2)
+#######################################
+RTC
+#######################################
+# Constants (LITERAL1)
+#######################################

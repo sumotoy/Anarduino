@@ -1,0 +1,43 @@
+{
+  "packages": [
+    {
+      "name": "Anarduino",
+      "maintainer": "sumotoy",
+      "websiteURL": "http://sumotoy.github.io/anarduino/",
+      "email": "sumotoy@gmail.com",
+      "help": {
+        "online": "https://github.com/sumotoy/anarduino/"
+      },
+      "platforms": [
+        {
+          "name": "Anarduino",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Anarduino",
+          "help": {
+            "online": "https://github.com/sumotoy/anarduino/"
+          },
+          "url": "https://github.com/sumotoy/anarduino/releases/download/1.0.0/anarduino.zip",
+          "archiveFileName": "anarduino.zip",
+          "checksum": "SHA-256:1bfe7707894907a2792884fc726e1fe9251842fac75eaf5ef451bba0c18cbb4e",
+          "size": "92824",
+          "boards": [
+            {"name": "Anarduino"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

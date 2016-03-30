@@ -1,0 +1,12 @@
+{
+  "name": "MCP7940RTC",
+  "keywords": "rtc",
+  "description": "MCP7940RTC library for MCP7940)",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/LowPowerLab/RFM69.git"
+  },
+  "frameworks": "arduino",
+  "platforms": "atmelavr"
+}
