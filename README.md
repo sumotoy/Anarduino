@@ -2,9 +2,10 @@
 An addon for Arduino IDE to better program Anarduino boards.
 This has mainly designed to simplify coding on Anarduino boards (www.anarduino.com). The <b>Anarduino</b> folder should be placed in Documents->Arduino->Hardware<br>
 then restart ide. You should have a new option on arduino ide board menu for Anarduino 16Mh/3.3v.<br>
-There's 2 options for 'Processor' menu:<br>
+There's 3 options for 'Processor' menu:<br>
  - ATmega328_Standard:This is the board as it come from anarduino.com
  - ATmega328_Optimod:In case you reflashed bootloader with Optimod, CAUTION! Never tested<br>
+ - ATmega328_DualOptiboot: Similar to Moteino (this will be added shortly).
  
 Everithing come with NO WARRANTIES, it's just an early experiment, you can contribute but please it's no time for bugs or whatever.<br>
 
