@@ -21,6 +21,7 @@ This is a list of the pins shared internally:<br>
  - Pin 2:  RFM transceiver INT (connected to INT 0) pullup (should always be used as IN)
  - Pin 3:  SQW from RTC chip, pullup (should always be used as IN)
  - Pin 5:  SPI flash 128M SS (should always be used as OUT and cannot be shared)
+ - Pin 6:  Connected to RFM DIO2 (this is missed from anarduino schematics but connected!) <-----!!!
  - Pin 9:  LED
  - Pin 10: RFM transceiver SS (should always be used as OUT and cannot be shared if RFM module soldered)
  - Pin 11: MOSI shared between RFM and SPI flash, shareable with other devices
